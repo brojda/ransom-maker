@@ -20,7 +20,7 @@ All the department in the emg (1.png):
         This part gives you a decrypted file to decrypt
       the victim's files.
       
-  3) Geting your passwords. 
+  3) Getting your passwords. 
   
         This will show all the passwords that you used 
       in your encrypted files, and the test encrypted 
