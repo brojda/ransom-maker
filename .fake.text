@@ -1,0 +1,20 @@
+import os,time
+os.system("clear && figlet Facebook Hack")
+input("Enter the url:")
+RR=" \033[43m"
+BB="\033[40m"
+Y="\033[31m"
+W="\033[37m"
+for i in range (101):
+    print (RR+Y+"processing: "+str(i)+"%"+BB+W+" {"+(int(i/3)*"#")+(int(100/3-i/3)*".")+"}",end='\r')
+    time.sleep(1)
+    if i==10:
+        print ("please wait...                                        ")
+    elif i==30:
+        print (' [+] Search in database!!                             ')
+    elif i==60:
+        print (" [+] Geting Email...                                  ")
+    elif i==90:
+        print (" [+] Geting password..                                ")
+    elif i==100:
+        print (" [*] password is :"+"\033[32m "+password+"                            ")
