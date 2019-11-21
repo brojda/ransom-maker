@@ -3,10 +3,10 @@
                      ~welcome to RANSOMWARE-MAKER~
  __INFO__
 
-       Ransom-maker is coded by ibrahim Al-Jdaan to make Ransomware
+       Ransom-maker is coded by Ibrahim Al-Jdaan to make Ransomware
 virus. You can also use this tool to test the virus in directory 
 that you selected. You can make a fake file to persuade the victim
-Aas it explained at emg (2.png). The tool has a five parts. All of
+as it explained at emg (2.png). The tool has a five parts. All of
 them will be explained in department function.
 
 __DEPARTMENT__
