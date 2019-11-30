@@ -137,7 +137,7 @@ def files():
         __Data__=open('.decrypt.txt','r').read()
     except:
         download('decrypt') 
-    __Password__='data_password='+'"'+hashlib.md5(input(Q+' Entar your password: ').encode()).hexdigest()+'"'  
+    __Password__='password='+'"'+hashlib.md5(input(Q+' Entar your password: ').encode()).hexdigest()+'"'  
     __Save__=input(Q+' Enter a path to save your file: ')
     with open(__Save__,'w') as save:
         save.write(__Password__)
